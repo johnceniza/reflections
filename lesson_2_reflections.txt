@@ -5,3 +5,23 @@ Initializing a repository allows the directory where you initialize the repo to 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is the intermediary between the two locations. It allows us to group files together before a commit so that we only commit files that we deem part of our LOGICAL CHANGE. This way, no other files will be affected if they have not been touched or are not part of the same logical change (but may be part of another commit).
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add only files related to the logical change to the staging area and nothing else!
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches could help when you are trying out experimental features that may not make it until the future release of your software (many versions later). Or it’s just one way to create a functional copy of your app that has new features/experiments within it.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams are very helpful for understanding how branches work and the reachability of each commit. It also very easily explains the idea of parent commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together results in their respective codes being COMBINED. We must represent it as two forks coming together because it is not overwriting each other, but it is joining together the code form one branch to another.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is obviously much more convenient and faster. However it could lead to it including code that doesn’t make sense together, or worse, won’t compile/run. Manually is more tedious but with the conflict flagging system, it is manageable and it will most likely lead to more coherent code.
