@@ -1,0 +1,29 @@
+Lesson 1 Reflections
+
+How did using diff help us spot the bug?
+
+Using diff helped identify which lines changed which enabled us to easily see where the misspelling was!
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It allows you to easily revert to an old file in case something goes wrong. Also allows for comparisons and is easier for colleagues to follow your code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manual commit changes are just the right size. Auto saving changes can cause changes between version to be insignificant so it would be a waste of time to compare. You will also end up with too many versions, so manual saving is more manageable. Manually saving also helps with ensuring that each version of your code is functional and not half saved when you mistyped something or stepped away your computer.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Depending on what you’re doing (programming or writing an essay) it would be difficult to determine if files are linked with one another. I assume git was created with creating software in mind, and Google Docs was created with business use in mind. It’s just a matter of preference and what makes the most sense for the user.
+
+How can you use the commands git log and git diff to view the history of files?
+
+I can use git log to see all the commits made on a repository of files. I can pick and choose between two commit IDs and use the diff command to compare changes between those two commits (you can even leapfrog between past and future commits skipping ones in between)
+
+How might using version control make you more confident to make changes that could break something?
+
+Being able to easily revert back to an old, functional version of the code allows you to basically go wild and make changes with minimal consequences. The great thing about it is that you can go between old and current version of the file so it’s not like once you revert, all is lost. All versions are kept track of so you always have a backup and files to easily compare!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git to create iOS apps more efficiently. Right now I’m copying and pasting my xCode project folder in a bunch of other subfolders and it is getting out of hand. This will definitely speed up my development and debugging process a hundred-fold.
