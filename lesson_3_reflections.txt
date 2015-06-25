@@ -15,3 +15,7 @@ Branches - use when either fixing a bug, creating large feature, or for any reas
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This way, we can work on our file offline and still be able to compare differences and attempt to merge to see if any conflicts would arise. In a way, this makes us more efficient and less reliant on internet connection.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+To collaborate without using Git or GitHub would be a nightmare. You’d have to manually document all code changes and explain what you did and why you did that. Then you have to manually merge all code changes to your “master” codebase. I can’t think of one thing that would be easier except the fact that it might be more “intuitive” since you don’t have to learn all the Git and GitHub terminology and processes for doing things.
