@@ -19,3 +19,7 @@ This way, we can work on our file offline and still be able to compare differenc
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 To collaborate without using Git or GitHub would be a nightmare. You’d have to manually document all code changes and explain what you did and why you did that. Then you have to manually merge all code changes to your “master” codebase. I can’t think of one thing that would be easier except the fact that it might be more “intuitive” since you don’t have to learn all the Git and GitHub terminology and processes for doing things.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+It’s highly subjective but I think it would be best practice to create a new branch whenever you plan on changing more than a few lines of code. For example, when fixing bugs or adding new features or changing the logic of a function. When in doubt branch it out! This is probably the safest way to doing so. Working off master is very quick and efficient but it can cause a lot of headaches when collaborating with others. So always be mindful of branching out. Context branching, context switching. Whatever word you want to use for it. I’d lean towards branching whenever I’m in doubt.
